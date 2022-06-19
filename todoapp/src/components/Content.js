@@ -5,7 +5,7 @@ import ContentFooter from "./ContentFooter";
 function Content() {
   return (
     <>
-      <section classNameName="main">
+      <section className="main">
         <input className="toggle-all" type="checkbox" />
         <label htmlFor="toggle-all">Mark all as complete</label>
         <TodoList />
